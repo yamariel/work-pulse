@@ -1,0 +1,55 @@
+name: work_pulse
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  dio: ^5.11.1
+  firebase_auth: ^7.1.0
+  firebase_core: ^5.2.0
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.8
+  google_sign_in: ^7.2.0
+  intl: ^0.20.3
+  material_ui: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  rename_app: ^1.6.6
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+config_name:
+  name: "Work Pulse"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FACC15"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  adaptive_icon_foreground_inset: 0
+
+flutter_native_splash:
+  color: "#FACC15"
+  image: "assets/icon/splash_icon.png"
+  color_dark: "#FACC15"
+  image_dark: "assets/icon/splash_icon.png"
+  fullscreen: true
+
+  android_12:
+    color: "#FACC15"
+    image: "assets/icon/splash_icon.png"
+    icon_background_color: "#FACC15"

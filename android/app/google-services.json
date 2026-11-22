@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "726013420570",
+    "project_id": "work-pulse-1c3c1",
+    "storage_bucket": "work-pulse-1c3c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726013420570:android:393c2d88f69c29b3609da3",
+        "android_client_info": {
+          "package_name": "com.yamarielworkpulse.org.work_pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNmOcqeubqmNnKm3ehRV4VARKs99fEndY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
