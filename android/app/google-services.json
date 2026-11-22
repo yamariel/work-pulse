@@ -12,7 +12,20 @@
           "package_name": "com.yamarielworkpulse.org.work_pulse"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "726013420570-rbaehomobn10ftdc5gcai0gedude50rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yamarielworkpulse.org.work_pulse",
+            "certificate_hash": "865021d84ad6d0b6019bd0003864fb7dbd3329d3"
+          }
+        },
+        {
+          "client_id": "726013420570-njo5l9qr89tj56krbon51aevvtbokltt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBNmOcqeubqmNnKm3ehRV4VARKs99fEndY"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726013420570-njo5l9qr89tj56krbon51aevvtbokltt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726013420570-i5cjddgc36n1gnufouponjs368ob3d36.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yamariel-work-pulse.org.workPulse"
+              }
+            }
+          ]
         }
       }
     }

@@ -59,22 +59,24 @@ class DefaultFirebaseOptions {
     projectId: 'work-pulse-1c3c1',
     storageBucket: 'work-pulse-1c3c1.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDcL1BY7uNm8PfxDU9XFfc4H3MN-SjiEOo',
     appId: '1:726013420570:ios:c7b51537f62a4229609da3',
     messagingSenderId: '726013420570',
     projectId: 'work-pulse-1c3c1',
     storageBucket: 'work-pulse-1c3c1.firebasestorage.app',
+    androidClientId: '726013420570-rbaehomobn10ftdc5gcai0gedude50rk.apps.googleusercontent.com',
+    iosClientId: '726013420570-i5cjddgc36n1gnufouponjs368ob3d36.apps.googleusercontent.com',
     iosBundleId: 'com.yamariel-work-pulse.org.workPulse',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyDcL1BY7uNm8PfxDU9XFfc4H3MN-SjiEOo',
     appId: '1:726013420570:ios:c7b51537f62a4229609da3',
     messagingSenderId: '726013420570',
     projectId: 'work-pulse-1c3c1',
     storageBucket: 'work-pulse-1c3c1.firebasestorage.app',
+    androidClientId: '726013420570-rbaehomobn10ftdc5gcai0gedude50rk.apps.googleusercontent.com',
+    iosClientId: '726013420570-i5cjddgc36n1gnufouponjs368ob3d36.apps.googleusercontent.com',
     iosBundleId: 'com.yamariel-work-pulse.org.workPulse',
   );
 }
