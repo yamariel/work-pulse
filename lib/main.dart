@@ -10,7 +10,7 @@ import 'firebase_options.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  await dotenv.load(fileName: '.env');
+  await dotenv.load(fileName: 'assets/env/app.env');
   runApp(const ProviderScope(child: WorkPulseApp()));
 }
 

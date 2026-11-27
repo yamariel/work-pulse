@@ -32,7 +32,7 @@ flutter:
   assets:
     - assets/icon/
     - assets/images/
-    - .env
+    - assets/env/
 
 config_name:
   name: "Work Pulse"
